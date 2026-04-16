@@ -5,10 +5,14 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import { HomePage } from './pages/HomePage';
 import { router } from './routes/Routes';
+import { FriendsProvider } from './context/FriendContex';
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />,
+    <FriendsProvider>
+      <RouterProvider router={router} />,
+
+    </FriendsProvider>
   </StrictMode>,
 )
