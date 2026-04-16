@@ -5,9 +5,16 @@ import Footer from '../components/shared/footer/Footer'
 
 const MainLayout = () => {
     return (
-        <div>
+        // <div>
+        //     <NavBar />
+        //     <Outlet />
+        //     <Footer />
+        // </div>
+        <div className="flex flex-col min-h-screen">
             <NavBar />
-            <Outlet />
+            <div className="flex-1">
+                <Outlet />
+            </div>
             <Footer />
         </div>
     )

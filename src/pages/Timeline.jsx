@@ -30,7 +30,7 @@ const Timeline = () => {
     };
 
     return (
-        <div className='bg-[#f8fafc] flex flex-col min-h-screen'>
+        <div className='bg-[#f8fafc] flex flex-col '>
 
             <div className="w-[70%] mx-auto  my-6 p-4 space-y-6">
 

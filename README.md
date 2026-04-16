@@ -1,16 +1,48 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  KeenKeeper
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+https://assignment7-sigma-rose.vercel.app/
+---
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was built as part of my web development assignment. The main idea is to help users manage their friendships in a more thoughtful way by tracking communication history.
 
-## Expanding the ESLint configuration
+It also includes a timeline system and a stats page to make everything easier to understand.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- React Router DOM
+- Tailwind CSS
+- daisyui
+- Recharts
+- React Icons
+- React Toastify
+
+---
+
+## ✨ Features
+
+### 👥 Friend List
+- Shows all friends in a clean card layout
+- Each friend has a status (On-Track, Almost Due, Overdue)
+- Click on a friend to see full details
+
+### ⚡ Timeline Tracking
+- Logs Call, Text, and Video interactions
+- You can filter timeline by type
+
+
+### 📊 Stats Dashboard
+- Pie chart showing interaction breakdown
+- Shows how much you call, text, or video each friend
+- Interactive chart with hover effect
+
+
+
+

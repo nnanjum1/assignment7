@@ -3,8 +3,7 @@
         "id": 1,
         "name": "Arafat Hossain",
         "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
-        "prefer": "phone",
-        "contact": "013XXXXXXX",
+        "email": "arafat@example.com",
         "days_since_contact": 5,
         "status": "On-Track",
         "tags": [
@@ -18,8 +17,7 @@
         "id": 2,
         "name": "Tanvir Hasan",
         "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
-        "prefer": "email",
-        "contact": "tanvir.hasan@example.com",
+        "email": "tanvir.hasan@example.com",
         "days_since_contact": 18,
         "status": "Almost Due",
         "tags": [
@@ -33,8 +31,7 @@
         "id": 3,
         "name": "Nafis Islam",
         "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
-        "prefer": "email",
-        "contact": "nafis.islam@example.com",
+        "email": "nafis.islam@example.com",
         "days_since_contact": 30,
         "status": "Overdue",
         "tags": [
@@ -48,8 +45,7 @@
         "id": 4,
         "name": "Sabbir Ahmed",
         "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-        "prefer": "email",
-        "contact": "sabbir.ahmed@example.com",
+        "email": "sabbir.ahmed@example.com",
         "days_since_contact": 2,
         "status": "On-Track",
         "tags": [
@@ -64,8 +60,7 @@
         "id": 5,
         "name": "Mehedi Hasan",
         "picture": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
-        "prefer": "email",
-        "contact": "mehedi.hasan@example.com",
+        "email": "mehedi.hasan@example.com",
         "days_since_contact": 12,
         "status": "Almost Due",
         "tags": [
@@ -79,8 +74,7 @@
         "id": 6,
         "name": "Rafiq Uddin",
         "picture": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c",
-        "prefer": "phone",
-        "contact": "018XXXXXXXX",
+        "email": "rafiq.uddin@example.com",
         "days_since_contact": 40,
         "status": "Overdue",
         "tags": [
@@ -94,9 +88,8 @@
         "id": 7,
         "name": "Imran Hossain",
         "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598",
-        "prefer": "email",
-        "contact": "imran.hossain@example.com",
-        "days_since_contact": 8,
+        "email": "imran.hossain@example.com",
+        "days_since_contact": 38,
         "status": "On-Track",
         "tags": [
             "WORK"
@@ -109,8 +102,7 @@
         "id": 8,
         "name": "Hasan Mahmud",
         "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598",
-        "prefer": "email",
-        "contact": "hasan.mahmud@example.com",
+        "email": "hasan.mahmud@example.com",
         "days_since_contact": 22,
         "status": "Almost Due",
         "tags": [
@@ -125,8 +117,7 @@
         "id": 9,
         "name": "Shakib Rahman",
         "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-        "prefer": "email",
-        "contact": "shakib.rahman@example.com",
+        "email": "shakib.rahman@example.com",
         "days_since_contact": 14,
         "status": "On-Track",
         "tags": [
@@ -140,8 +131,7 @@
         "id": 10,
         "name": "Farhan Uddin",
         "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
-        "prefer": "email",
-        "contact": "farhan.uddin@example.com",
+        "email": "farhan.uddin@example.com",
         "days_since_contact": 6,
         "status": "On-Track",
         "tags": [

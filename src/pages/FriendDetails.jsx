@@ -61,7 +61,7 @@ const FriendDetails = () => {
     return (
         <div className="bg-[#f8fafc]  flex flex-col">
 
-            <div className="w-full lg:w-[70%] mx-auto my-10 lg:my-20 flex flex-col lg:flex-row gap-6">
+            <div className="w-[90%] lg:w-[70%] mx-auto my-10 lg:my-20 flex flex-col lg:flex-row gap-6">
 
 
                 <div className="w-full lg:max-w-[350px]">
@@ -96,7 +96,7 @@ const FriendDetails = () => {
                         </p>
 
                         <p className="mt-2 font-semibold text-[#64748B] ">
-                            Preferred: {friend.prefer}
+                            Preferred: {friend.email}
                         </p>
 
                     </div>
