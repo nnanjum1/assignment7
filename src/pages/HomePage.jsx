@@ -2,6 +2,7 @@ import React from 'react'
 import { FaPlus } from 'react-icons/fa'
 import { useNavigate } from 'react-router'
 import { useFriends } from '../context/FriendContex'
+import { toast } from 'react-toastify'
 
 
 export const HomePage = () => {
@@ -20,6 +21,15 @@ export const HomePage = () => {
 
         }
     }
+
+    const {
+        totalFriends,
+        onTrack,
+        almostDue,
+        overdue,
+        interactionsThisMonth
+    } = useFriends()
+
     if (loading) {
         return (
             <div className="flex justify-center items-center h-screen">
@@ -38,7 +48,7 @@ export const HomePage = () => {
                         Your personal shelf of meaningful connections. Browse, tend, and nurture the
                         relationships that matter most.
                     </p>
-                    <button className="btn btn-primary bg-[#244d3f] text-semibold"><FaPlus /> Add A Friend</button>
+                    <button onClick={() => toast.error("This feature is not implemented")} className="btn btn-primary bg-[#244d3f] text-semibold"><FaPlus /> Add A Friend</button>
 
                 </div>
             </div>
@@ -47,28 +57,28 @@ export const HomePage = () => {
 
                 <div className="card bg-white shadow-sm">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-[#1F2937]">12</h2>
+                        <h2 className="card-title text-[#1F2937]">{totalFriends}</h2>
                         <p className='text-[#64748b]'>Total Friends</p>
                     </div>
                 </div>
 
                 <div className="card bg-white shadow-sm">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-[#1F2937]">6</h2>
+                        <h2 className="card-title text-[#1F2937]">{onTrack}</h2>
                         <p className='text-[#64748b]'>On Track</p>
                     </div>
                 </div>
 
                 <div className="card bg-white shadow-sm">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-[#1F2937]">3</h2>
+                        <h2 className="card-title text-[#1F2937]">{overdue}</h2>
                         <p className='text-[#64748b]'>Need Attention</p>
                     </div>
                 </div>
 
                 <div className="card bg-white shadow-sm">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-[#1F2937]">10</h2>
+                        <h2 className="card-title text-[#1F2937]">{interactionsThisMonth}</h2>
                         <p className='text-[#64748b]'>Interactions This Month</p>
                     </div>
                 </div>
