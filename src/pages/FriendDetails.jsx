@@ -155,7 +155,7 @@ const FriendDetails = () => {
                                 <h2 className="card-title text-5 font-medium text-[#244d3f]">
                                     Relationship Goal
                                 </h2>
-                                <button className="text-[14px] border border-[#e9e9e9] py-2 px-4 rounded bg-[#F8FAFC] text-[#1F2937]">Edit</button>
+                                <button onClick={() => toast.error("This feature is not implemented")} className="text-[14px] border border-[#e9e9e9] py-2 px-4 rounded bg-[#F8FAFC] text-[#1F2937] hover:bg-gray-200 transition">Edit</button>
                             </div>
 
                             <p className="text-[#64748b]  text-[18px]">

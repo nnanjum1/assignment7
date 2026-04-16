@@ -17,6 +17,7 @@ It also includes a timeline system and a stats page to make everything easier to
 ## 🛠️ Tech Stack
 
 - React.js
+- vite
 - React Router DOM
 - Tailwind CSS
 - daisyui

@@ -48,12 +48,12 @@ export const HomePage = () => {
                         Your personal shelf of meaningful connections. Browse, tend, and nurture the
                         relationships that matter most.
                     </p>
-                    <button onClick={() => toast.error("This feature is not implemented")} className="btn btn-primary bg-[#244d3f] text-semibold"><FaPlus /> Add A Friend</button>
+                    <button onClick={() => toast.error("This feature is not implemented")} className="btn btn-primary bg-[#244d3f] text-semibold hover:bg-teal-600 transition"><FaPlus /> Add A Friend</button>
 
                 </div>
             </div>
 
-            <div className='w-[70%] mx-auto grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 py-10'>
+            <div className='w-[70%]  mx-auto grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 py-10'>
 
                 <div className="card bg-white shadow-sm">
                     <div className="card-body items-center text-center">
@@ -91,7 +91,7 @@ export const HomePage = () => {
 
 
             <div className="w-[70%] mx-auto border-t border-gray-300 pt-10 pb-20">
-                <h3 className='text-6 font-semibold'>Your Friends</h3>
+                <h3 className='text-[24px] mb-1 font-semibold'>Your Friends</h3>
                 <div className="grid lg:grid-cols-4 text-center items-center md:grid-cols-3 sm:grid-cols-2 gap-6">
 
                     {friends.map(friend => (
