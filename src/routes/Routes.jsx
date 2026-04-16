@@ -5,6 +5,7 @@ import { createBrowserRouter } from 'react-router'
 import { HomePage } from '../pages/HomePage'
 import MainLayout from '../layout/MainLayout'
 import ErrorPage from '../pages/ErrorPage'
+import FriendDetails from '../pages/FriendDetails'
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
             {
                 path: "/stats",
                 element: <Stats />
+            },
+            {
+                path: "friend/:id",
+                element: <FriendDetails />
             },
 
         ],

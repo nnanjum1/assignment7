@@ -3,7 +3,8 @@
         "id": 1,
         "name": "Arafat Hossain",
         "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
-        "email": "arafat.hossain@example.com",
+        "prefer": "phone",
+        "contact": "013XXXXXXX",
         "days_since_contact": 5,
         "status": "On-Track",
         "tags": [
@@ -11,13 +12,14 @@
         ],
         "bio": "University lab partner. We still work on tech projects and share career advice.",
         "goal": 7,
-        "next_due_date": "2026-04-18"
+        "next_due_date": "June 18, 2026"
     },
     {
         "id": 2,
         "name": "Tanvir Hasan",
         "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
-        "email": "tanvir.hasan@example.com",
+        "prefer": "email",
+        "contact": "tanvir.hasan@example.com",
         "days_since_contact": 18,
         "status": "Almost Due",
         "tags": [
@@ -25,13 +27,14 @@
         ],
         "bio": "Former dorm roommate. We catch up during weekends and holidays.",
         "goal": 20,
-        "next_due_date": "2026-04-22"
+        "next_due_date": "May 22, 2026"
     },
     {
         "id": 3,
         "name": "Nafis Islam",
         "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
-        "email": "nafis.islam@example.com",
+        "prefer": "email",
+        "contact": "nafis.islam@example.com",
         "days_since_contact": 30,
         "status": "Overdue",
         "tags": [
@@ -39,13 +42,14 @@
         ],
         "bio": "Childhood friend from school days. We grew up in the same neighborhood.",
         "goal": 14,
-        "next_due_date": "2026-04-10"
+        "next_due_date": "June 10, 2026"
     },
     {
         "id": 4,
         "name": "Sabbir Ahmed",
         "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-        "email": "sabbir.ahmed@example.com",
+        "prefer": "email",
+        "contact": "sabbir.ahmed@example.com",
         "days_since_contact": 2,
         "status": "On-Track",
         "tags": [
@@ -54,13 +58,14 @@
         ],
         "bio": "Coding partner. We collaborate on React and backend projects.",
         "goal": 10,
-        "next_due_date": "2026-04-16"
+        "next_due_date": "June 16, 2026"
     },
     {
         "id": 5,
         "name": "Mehedi Hasan",
         "picture": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
-        "email": "mehedi.hasan@example.com",
+        "prefer": "email",
+        "contact": "mehedi.hasan@example.com",
         "days_since_contact": 12,
         "status": "Almost Due",
         "tags": [
@@ -68,13 +73,14 @@
         ],
         "bio": "Study group friend from university. We help each other with assignments.",
         "goal": 14,
-        "next_due_date": "2026-04-20"
+        "next_due_date": "June 20, 2026"
     },
     {
         "id": 6,
         "name": "Rafiq Uddin",
         "picture": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c",
-        "email": "rafiq.uddin@example.com",
+        "prefer": "phone",
+        "contact": "018XXXXXXXX",
         "days_since_contact": 40,
         "status": "Overdue",
         "tags": [
@@ -82,13 +88,14 @@
         ],
         "bio": "Gym partner and fitness accountability buddy.",
         "goal": 14,
-        "next_due_date": "2026-03-28"
+        "next_due_date": "May 28, 2026"
     },
     {
         "id": 7,
         "name": "Imran Hossain",
         "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598",
-        "email": "imran.hossain@example.com",
+        "prefer": "email",
+        "contact": "imran.hossain@example.com",
         "days_since_contact": 8,
         "status": "On-Track",
         "tags": [
@@ -96,13 +103,14 @@
         ],
         "bio": "School friend. We still play cricket and hang out occasionally.",
         "goal": 10,
-        "next_due_date": "2026-04-19"
+        "next_due_date": "June 19, 2026"
     },
     {
         "id": 8,
         "name": "Hasan Mahmud",
         "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598",
-        "email": "hasan.mahmud@example.com",
+        "prefer": "email",
+        "contact": "hasan.mahmud@example.com",
         "days_since_contact": 22,
         "status": "Almost Due",
         "tags": [
@@ -111,13 +119,14 @@
         ],
         "bio": "University project partner. We built multiple web apps together.",
         "goal": 14,
-        "next_due_date": "2026-04-23"
+        "next_due_date": "May 23, 2026"
     },
     {
         "id": 9,
         "name": "Shakib Rahman",
         "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-        "email": "shakib.rahman@example.com",
+        "prefer": "email",
+        "contact": "shakib.rahman@example.com",
         "days_since_contact": 14,
         "status": "On-Track",
         "tags": [
@@ -125,13 +134,14 @@
         ],
         "bio": "Startup enthusiast. We often discuss business ideas and new tech trends.",
         "goal": 14,
-        "next_due_date": "2026-04-21"
+        "next_due_date": "May 21, 2026"
     },
     {
         "id": 10,
         "name": "Farhan Uddin",
         "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
-        "email": "farhan.uddin@example.com",
+        "prefer": "email",
+        "contact": "farhan.uddin@example.com",
         "days_since_contact": 6,
         "status": "On-Track",
         "tags": [
@@ -139,7 +149,7 @@
         ],
         "bio": "Hackathon teammate. We enjoy solving real-world problems with code.",
         "goal": 10,
-        "next_due_date": "2026-04-17"
+        "next_due_date": "May 17, 2026"
     },
     {
         "id": 11,
@@ -153,7 +163,7 @@
         ],
         "bio": "Cousin living in Dhaka. We meet during family events and holidays.",
         "goal": 21,
-        "next_due_date": "2026-04-24"
+        "next_due_date": "May 24, 2026"
     },
     {
         "id": 12,
@@ -168,6 +178,6 @@
         ],
         "bio": "Childhood school friend. We try to reconnect after long gaps.",
         "goal": 14,
-        "next_due_date": "2026-04-08"
+        "next_due_date": "June 18, 2026"
     }
 ]
