@@ -3,7 +3,7 @@ import { IoTimeOutline } from 'react-icons/io5'
 import { RiHomeLine } from 'react-icons/ri'
 import { TfiStatsUp } from 'react-icons/tfi'
 import { NavLink } from 'react-router'
-import KeenKeeper from "../../../assets/KeenKeeper.png";
+import logo from "../../../assets/logo.png";
 const NavBar = () => {
 
     const links = <>
@@ -17,7 +17,7 @@ const NavBar = () => {
     return (
         <div className="navbar px-[10%] mx-auto bg-white shadow-sm">
             <div className="flex-1">
-                <img src={KeenKeeper} alt="" />
+                <img src={logo} alt="" />
             </div>
             <div className="lg:hidden">
                 <div className="dropdown dropdown-end">

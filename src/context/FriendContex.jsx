@@ -5,6 +5,20 @@ const FriendsContext = createContext()
 export const FriendsProvider = ({ children }) => {
     const [friends, setFriends] = useState([])
     const [loading, setLoading] = useState(true)
+    const [timeline, setTimeline] = useState([]);
+
+    const entryTimeline = (friend, type) => {
+        const newLog = {
+            id: Date.now(),
+            friendName: friend.name,
+            type,
+            date: new Date().toLocaleDateString(),
+
+            time: new Date().toLocaleTimeString(),
+        };
+
+        setTimeline(prev => [newLog, ...prev]);
+    };
 
     useEffect(() => {
         fetch("/friends.json")
@@ -36,7 +50,9 @@ export const FriendsProvider = ({ children }) => {
             onTrack,
             almostDue,
             overdue,
-            interactionsThisMonth
+            interactionsThisMonth,
+            timeline,
+            entryTimeline
         }}>
             {children}
         </FriendsContext.Provider>

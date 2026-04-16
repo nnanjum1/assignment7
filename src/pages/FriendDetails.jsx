@@ -5,11 +5,36 @@ import { FiArchive } from "react-icons/fi";
 import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineTextsms } from "react-icons/md";
 import { CiVideoOn } from "react-icons/ci";
+import { toast } from "react-toastify";
 
 
 const FriendDetails = () => {
     const { id } = useParams();
     const { friends } = useFriends();
+    const { entryTimeline } = useFriends();
+
+    const handleAction = (type, Icon) => {
+        const currentTime = new Date().toLocaleTimeString();
+        const currentDate = new Date().toLocaleDateString();
+
+        entryTimeline(friend, type);
+        toast.success(
+            <div className="flex items-center gap-2">
+                <Icon className="text-xl text-green-600" />
+                <div>
+                    <div>
+                        <b>{type}</b>  with {friend.name}
+                    </div>
+                    <div className="text-xs text-gray-500">
+                        {currentDate}
+                    </div>
+                    <div className="text-xs text-gray-500">
+                        {currentTime}
+                    </div>
+                </div>
+            </div>
+        );
+    };
 
     const statusColor = (status) => {
         switch (status) {
@@ -150,21 +175,24 @@ const FriendDetails = () => {
 
                             <div className="grid grid-cols-3 gap-4 mt-4">
 
-                                <div className="card bg-[#F8FAFC] border border-[#e9e9e9]">
+                                <div className="card bg-[#F8FAFC] border border-[#e9e9e9] cursor-pointer"
+                                    onClick={() => handleAction("Call", LuPhoneCall)}>
                                     <div className="card-body items-center text-center">
                                         <LuPhoneCall className="text-2xl" />
                                         <p>Call</p>
                                     </div>
                                 </div>
 
-                                <div className="card bg-[#F8FAFC] border border-[#e9e9e9] ">
+                                <div className="card bg-[#F8FAFC] border border-[#e9e9e9] cursor-pointer"
+                                    onClick={() => handleAction("Text", MdOutlineTextsms)}>
                                     <div className="card-body items-center text-center">
                                         <MdOutlineTextsms className="text-2xl" />
                                         <p>Text</p>
                                     </div>
                                 </div>
 
-                                <div className="card bg-[#F8FAFC] border border-[#e9e9e9]">
+                                <div className="card bg-[#F8FAFC] border border-[#e9e9e9] cursor-pointer"
+                                    onClick={() => handleAction("Video", CiVideoOn)}>
                                     <div className="card-body items-center text-center">
                                         <CiVideoOn className="text-2xl" />
                                         <p>Video</p>
